@@ -3,7 +3,7 @@ import uvicorn
 from fastapi import FastAPI, Header, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 
-API_KEY_SECRETA = "minha_chave_super_segura_123"
+API_KEY_SECRETA = "bp_chave_api_123"
 
 app = FastAPI()
 
